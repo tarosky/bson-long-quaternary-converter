@@ -1,0 +1,24 @@
+{
+  "name": "bson-long-quaternary-converter",
+  "version": "0.1.0",
+  "description": "This project converts an BSON Long to quaternary and vice versa. This project is needed by an internal project named Plet.",
+  "author": "Akihiro HARAI <akihiro.harai@tarosky.co.jp>",
+  "contributors": [],
+  "scripts": {
+    "test": "node spec/run.js"
+  },
+  "main": "bson-long-quaternary-converter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarosky/bson-long-quaternary-converter"
+  },
+  "dependencies": {
+    "radix-converter": "^0.1.0",
+    "bson": "^0.4.6"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-reporters": "^2.1.1"
+  },
+  "license": "MIT"
+}
